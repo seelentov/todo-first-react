@@ -1,0 +1,83 @@
+h1{
+  text-align: center;
+  font-size: 25px;
+}
+
+.todo__items{
+  width: 100%;
+}
+
+.todo__items th, td{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.todo__items tr{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin: 10px 0;
+ padding: 0 10px;
+}
+.todo__form{
+ margin: 20px 0;
+ padding: 0 10px;
+}
+
+.todo__form input[type="text"]{
+  border-radius: 5px;
+  width: 70%;
+  margin-left: 20px;
+}
+.todo__form input[type="submit"]{
+  border-radius: 5px;
+  width: 20%;
+  margin-left: 20px;
+  background: rgb(46, 144, 0);
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.todo__form input[type="submit"]:disabled{
+  opacity: 0.4;
+}
+.todo__form label{
+  text-wrap: nowrap;
+  display: flex;
+  width: 100%;
+}
+
+.todo-item__actions-delete{
+  background: red;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 4px;
+}
+.todo-item__actions-toggle{
+  width: 100%;
+  font-family: "Montserrat";
+  background: rgb(251, 155, 0);
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.todo-item__actions-ready{
+  width: 100%;
+  background: rgb(46, 144, 0);
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  border-radius: 5px;
+
+}
+
+.todo-item__actions{
+  display: flex;
+  flex-direction: column;
+}

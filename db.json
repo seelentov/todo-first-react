@@ -1,0 +1,16 @@
+{
+  "todolist": [
+    {
+      "text": "xcvxcvxcvxc",
+      "status": "active",
+      "author": "admin",
+      "id": 3
+    },
+    {
+      "text": "фывфывыв",
+      "status": "active",
+      "author": "admin",
+      "id": 4
+    }
+  ]
+}
